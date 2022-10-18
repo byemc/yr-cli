@@ -1,0 +1,34 @@
+{
+  "name": "yr-cli",
+  "version": "1.0.0",
+  "description": "A CLI for the yr.no API",
+  "main": "bin/index.js",
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxjv/yr-cli.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+
+  "author": "Laker J.V Turner",
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/lxjv/yr-cli/issues"
+  },
+  "homepage": "https://github.com/lxjv/yr-cli#readme",
+  
+  "dependencies": {
+    "node-libcurl": "^2.3.4"
+  },
+
+  "bin": {
+    "hello": "./bin/index.js"
+  }
+}
